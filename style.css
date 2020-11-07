@@ -1,0 +1,66 @@
+.backgroundImage {
+	background-image: url("https://images.pexels.com/photos/176400/pexels-photo-176400.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	width: 100%;
+	min-height: 100VH;
+  z-index: -1;
+}
+
+.navbar {
+    background-color: cornflowerblue;
+    background-image: linear-gradient(170deg, #5be6f8 20%, #008080 100%);
+  	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+    font-family: poppins;
+}
+
+h1 {
+  font-family: poppins;
+  color: white;
+}
+
+h2 {
+  font-family: poppins;
+  color: white;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+
+  .btn {
+    background-color: pink;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .container-sm {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .title {
+    padding: 30px
+  }
+
+  .image {
+    padding: 20px;
+  }
